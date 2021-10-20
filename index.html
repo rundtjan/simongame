@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D3 demo map</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kumar+One|Teko"
+      rel="stylesheet"
+    />
+    <div ng-app="simon" ng-controller="myCtrl">
+      <div class="holder">
+        <div class="background"></div>
+        <div
+          class="field"
+          id="green"
+          ng-style="greenlight"
+          ng-click="player(0)"
+        ></div>
+        <div
+          class="field"
+          id="yellow"
+          ng-style="yellowlight"
+          ng-click="player(1)"
+        ></div>
+        <div
+          class="field"
+          id="red"
+          ng-style="redlight"
+          ng-click="player(2)"
+        ></div>
+        <div
+          class="field"
+          id="blue"
+          ng-style="bluelight"
+          ng-click="player(3)"
+        ></div>
+        <div class="menu">
+          <div id="simon">simon</div>
+          <div id="count">{{display(2)}}</div>
+          <div id="count2">{{display(1)}}</div>
+          <div id="start" ng-click="start()"></div>
+          <div id="starttext">START</div>
+          <div id="starttext2">RESET</div>
+          <div id="stricttext">STRICT</div>
+          <div id="strictdisplay" ng-style="strictstyle"></div>
+          <div id="stricttext2">MODE</div>
+          <div id="strict" ng-click="strictly()"></div>
+          <div id="onoff" ng-click="onoff()"></div>
+          <div id="onoff2" ng-click="onoff()" ng-style="on"></div>
+          <div id="ontext1">OFF</div>
+          <div id="ontext2">ON</div>
+          <div id="level" ng-click="hard()"></div>
+          <div id="level2" ng-click="hard()" ng-style="hardstyle"></div>
+          <div id="leveltext1">EASY</div>
+          <div id="leveltext2">HARD</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script src="code.js"></script>
+  </body>
+</html>

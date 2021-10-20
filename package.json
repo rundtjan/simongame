@@ -1,0 +1,12 @@
+{
+    "name": "Simongame",
+    "version": "1.0.0",
+    "description": "a game coded in angular javascript",
+    "scripts": {
+      "start": "serve"
+    },
+    "dependencies": {
+      "serve": "^10.0.1"
+    },
+    "author": "JR"
+  }

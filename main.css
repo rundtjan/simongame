@@ -1,0 +1,344 @@
+body {
+  background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/brushedmetal103.jpg");
+}
+
+.holder {
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.menu {
+  display: block;
+  height: 220px;
+  width: 220px;
+  background: white;
+  border-radius: 50%;
+  z-index: 4;
+  position: absolute;
+  border-style: solid;
+  border-color: #333333;
+  border-width: 7px;
+  top: 88px;
+  left: -116px;
+  -webkit-box-shadow: 3px 3px 2px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow: 3px 3px 2px 0px rgba(50, 50, 50, 0.71);
+  box-shadow: 2px 2px 4px 1px rgba(50, 50, 50, 0.71);
+}
+
+#simon {
+  font-family: "Teko";
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+  position: absolute;
+  left: 59px;
+  top: 10px;
+}
+
+#count {
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 30px;
+  background: #230000;
+  border-radius: 5px;
+  top: 90px;
+  left: 44px;
+  color: #b51200;
+  font-family: "Teko";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+#count2 {
+  position: absolute;
+  border-radius: 5px;
+  top: 90px;
+  left: 50px;
+  color: #b51200;
+  font-family: "Teko";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+#start {
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: yellow;
+  border-radius: 50%;
+  top: 90px;
+  left: 98px;
+  border-style: solid;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.71);
+  box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.71);
+  transition: all 0.1s ease;
+}
+
+#start:active {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.71);
+  box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.71);
+}
+
+#starttext {
+  font-family: "Teko";
+  font-size: 18px;
+  position: absolute;
+  top: 112px;
+  left: 93px;
+}
+
+#starttext2 {
+  font-family: "Teko";
+  font-size: 15px;
+  position: absolute;
+  top: 129px;
+  left: 95px;
+}
+
+#strict {
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  top: 90px;
+  left: 146px;
+  border-style: solid;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.71);
+  box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.71);
+  transition: all 0.1s ease;
+}
+
+#strict:active {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.71);
+  box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.71);
+}
+
+#strictdisplay {
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: black;
+  border-radius: 50%;
+  top: 96px;
+  left: 175px;
+  border-style: solid;
+}
+
+#stricttext {
+  font-family: "Teko";
+  font-size: 18px;
+  position: absolute;
+  top: 112px;
+  left: 139px;
+}
+
+#stricttext2 {
+  font-family: "Teko";
+  font-size: 15px;
+  position: absolute;
+  top: 129px;
+  left: 144px;
+}
+
+#onoff {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background: #333333;
+  top: 153px;
+  left: 88px;
+  color: #b51200;
+  border-radius: 2px;
+}
+
+#onoff2 {
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  background: #4286f4;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  top: 153px;
+  left: 88px;
+  color: #b51200;
+}
+
+#ontext1 {
+  font-family: "Teko";
+  font-size: 15px;
+  position: absolute;
+  top: 153px;
+  left: 69px;
+}
+
+#ontext2 {
+  font-family: "Teko";
+  font-size: 15px;
+  position: absolute;
+  top: 153px;
+  left: 132px;
+}
+
+#level {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  background: #333333;
+  top: 180px;
+  left: 93px;
+  color: #b51200;
+  border-radius: 2px;
+}
+
+#level2 {
+  display: block;
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  background: #870000;
+  border-style: solid;
+  border-color: #630000;
+  border-width: 1px;
+  top: 180px;
+  left: 93px;
+  color: #b51200;
+}
+
+#leveltext1 {
+  font-family: "Teko";
+  font-size: 12px;
+  position: absolute;
+  top: 181px;
+  left: 72px;
+}
+
+#leveltext2 {
+  font-family: "Teko";
+  font-size: 12px;
+  position: absolute;
+  top: 181px;
+  left: 126px;
+}
+
+.background {
+  display: block;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  left: -224px;
+  top: -20px;
+  z-index: -1;
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(117, 117, 117, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* ff3.6+ */
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(117, 117, 117, 1)),
+    color-stop(100%, rgba(0, 0, 0, 1))
+  ); /* safari4+,chrome */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(117, 117, 117, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(117, 117, 117, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* opera 11.10+ */
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(117, 117, 117, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* ie10+ */
+  background: radial-gradient(
+    ellipse at center,
+    rgba(117, 117, 117, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* w3c */
+  -webkit-box-shadow: 17px 17px 27px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow: 17px 17px 27px 0px rgba(50, 50, 50, 0.71);
+  box-shadow: 17px 17px 27px 0px rgba(50, 50, 50, 0.71);
+}
+
+.field {
+  display: block;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#green {
+  background: green;
+  border-radius: 200px 0 0 0;
+  top: 0px;
+  left: -207px;
+  -webkit-box-shadow: inset 8px 9px 30px 0px rgba(0, 51, 0, 0.75);
+  -moz-box-shadow: inset 8px 9px 30px 0px rgba(0, 51, 0, 0.75);
+  box-shadow: inset 8px 9px 30px 0px rgba(0, 51, 0, 0.75);
+}
+
+#yellow {
+  background: #cccc00;
+  border-radius: 0px 200px 0 0;
+  left: 7px;
+  -webkit-box-shadow: inset -8px 9px 30px 0px rgba(204, 153, 0, 0.75);
+  -moz-box-shadow: inset -8px 9px 30px 0px rgba(204, 153, 0, 0.75);
+  box-shadow: inset -8px 9px 30px 0px rgba(109, 109, 0, 0.75);
+}
+
+#red {
+  background: #aa0000;
+  border-radius: 0 0 0px 200px;
+  top: 214px;
+  left: -207px;
+  -webkit-box-shadow: inset 8px -9px 30px 0px rgba(110, 0, 0, 0.75);
+  -moz-box-shadow: inset 8px -9px 30px 0px rgba(110, 0, 0, 0.75);
+  box-shadow: inset 8px -9px 30px 0px rgba(110, 0, 0, 0.75);
+}
+
+#blue {
+  background: blue;
+  border-radius: 0 0 200px 0;
+  top: 214px;
+  left: 7px;
+  -webkit-box-shadow: inset -9px -7px 30px 0px rgba(0, 0, 100, 0.75);
+  -moz-box-shadow: inset -9px -7px 30px 0px rgba(0, 0, 100, 0.75);
+  box-shadow: inset -9px -7px 30px 0px rgba(0, 0, 100, 0.75);
+}
